@@ -1,1 +1,16 @@
-spring.application.name=mcp
+spring:
+  application:
+    name: mcp
+  main:
+    banner-mode: off
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-weather-yuval
+        version: 1.0.0
+        type: sync
+
+logging:
+  pattern:
+    console:
+
